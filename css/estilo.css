@@ -1,0 +1,213 @@
+*{ /*serve para todas as tags */
+    margin: 0; /*margem*/
+    padding: 0; /*margem de dentro para fora, em relação ao conteúdo*/
+}
+
+.nav-head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+}
+
+header, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px 18px;
+
+}
+
+.banner{
+    height: 260px;
+    background-image: url(../img/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+ 
+}
+
+.cor-fundo{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.81) 0%, rgba(0, 0, 0, 0.9) 100%);
+
+}
+
+.container-geral{
+    display:flex;
+}
+
+.container-a{
+    width: 804px;
+    height: 263px;
+    background-color:white;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-a h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    border: 2px solid black;
+    margin-top: 8px;
+    margin-left: 51px;
+    margin-right: 559px;
+    border-radius: 5px;
+}
+
+.container-a img{
+    margin-top: 28px;
+    margin-left: 51px;
+}
+
+.container-b{
+    width: 804px;
+    height: 263px;
+    background-color:white;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-b h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    border: 2px solid black;
+    margin-top: 8px;
+    margin-left: 49px;
+    margin-right: 494px;
+    border-radius: 5px;
+}
+
+.container-b img{
+    margin-top: 28px;
+    margin-left: 51px;
+}
+
+.container-c{
+    width: 804px;
+    height: 263px;
+    background-color:white;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-c h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    border: 2px solid black;
+    margin-top: 8px;
+    margin-left: 51px;
+    margin-right: 599px;
+    border-radius: 5px;
+}
+
+.container-c img{
+    margin-top: 28px;
+    margin-left: 51px;
+}
+
+.product-a{
+    float: left;
+}
+
+p{
+    font-size: 14px;
+    width: 120px;
+    margin-top: 36px;
+    margin-left: 10px;
+}
+
+.ofertas{
+    text-decoration: line-through;
+}
+
+footer{
+    height: 165px;
+    background-color: black;
+    margin-top: 46px;
+}
+
+.footer-box{
+    padding: 25px 21%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot-a{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.foot-b{
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 28px;
+}
+
+.foot-c{
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 28px;
+}
+
+.foot-d{
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 28px;
+}
+
+@media screen and (max-width: 1200px ){  
+    .nav-head{
+        width: 90%;
+    }
+    .banner{
+        background-position: center;
+        background-size: cover;
+    }
+
+    footer{
+        height: fit-content;
+    }
+
+    .footer-box{
+        padding: 0 20%;
+    }
+}
+
+@media screen and (max-width: 768px ){  
+    .nav-head{
+        width: 40%;
+    }
+    .banner{
+        background-position: center;
+        background-size: cover;
+    }
+
+    footer{
+        height: fit-content;
+    }
+
+    .footer-box{
+        padding: 0 20%;
+    }
+}
